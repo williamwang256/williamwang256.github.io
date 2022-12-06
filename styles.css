@@ -1,0 +1,187 @@
+body {
+	margin: 0; 
+	font-family: Garamond;
+  background-color: #EAF1FF;
+  color:#555555;
+}
+
+.separator {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #EEEEEE;
+}
+
+/* Containers */
+
+.container {
+  position: relative;
+  overflow: auto;
+  width: 50%;
+  padding: 50px;
+  margin: auto;
+  background-color: #FFFFFF;
+  padding-bottom: 100px;
+}
+
+.description {
+  float: left;
+  width: 60%;
+  margin-right: 50px;
+}
+
+.section {
+  overflow: auto;
+  margin-top: 50px;
+}
+
+/* Photos */
+
+#pfp {
+  width:250;
+  height:250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pic {
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+/* .collapsible {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-family: Garamond;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #CCCCCC;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+} */
+
+.description-text {
+  text-align: justify;
+}
+
+/* Nav bar */
+
+.nav-bar {
+	background-color: #4779C4;
+}
+
+.nav-bar ul {
+	padding: 20px;
+  margin: 0px;
+  text-align: center;
+}
+
+.nav-bar ul li {
+	list-style: none;
+	display: inline;
+}
+
+.nav-button {
+	text-decoration: none;
+	padding: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+	color: #FFFFFF;
+}
+
+.nav-button-current {
+	text-decoration: none;
+	padding: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+	font-weight: bold;
+  color: #83AFF0;
+}
+
+.nav-button:hover  {
+	color: #83AFF0;
+	text-decoration: none;
+}
+
+.nav-button-current:hover  {
+	color: #83AFF0;
+	text-decoration: none;
+}
+
+/* Bottom links bar */
+.links-bar {
+  overflow: hidden;
+  background-color: #333333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.links-bar ul {
+	padding: 20px;
+  margin: 0px;
+  text-align: center;
+}
+
+.links-bar ul li {
+	list-style: none;
+	display: inline;
+}
+
+.links-button {
+	text-decoration: none;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+.links-button:hover  {
+	color: #83AFF0;
+	text-decoration: none;
+}
+
+/* Header */
+
+.header {
+	background-color: #1B2D48; 
+	height: 50px; 
+	margin: 0; 
+	padding-top: 20px;
+	padding-bottom: 70px;
+  text-align: center;
+}
+
+.header-text {
+  margin: 5px;
+	font-size: 48px;
+	color: #FFFFFF;
+}
+
+.sub-header-text {
+	margin: 5px 10px;
+	color: #83AFF0;
+	font-size: 14px;
+  font-weight: bold;
+}
+
+/* Main text body */
+
+.subtitle {
+	color: #3C649F;
+  font-size: 20px;
+}
