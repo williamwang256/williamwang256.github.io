@@ -1,0 +1,13 @@
+Sources for images used on this website
+
+books.jpg:    Photo by <a href="https://unsplash.com/@taisiia_shestopal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Taisiia Shestopal</a> on <a href="https://unsplash.com/s/photos/law?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+cb.png:       https://en.wikipedia.org/wiki/Colonel_By_Secondary_School
+chip.jpg:     Photo by <a href="https://unsplash.com/@adigold1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adi Goldstein</a> on <a href="https://unsplash.com/s/photos/computer-chip?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+ciena.png:    https://www.brandsoftheworld.com/logo/ciena
+intel.png:    https://commons.wikimedia.org/wiki/File:Intel-logo-2022.png
+map.png:      Me
+network.jpg:  Photo by <a href="https://unsplash.com/@jjying?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">JJ Ying</a> on <a href="https://unsplash.com/s/photos/fibre?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+ottawa.jpg:   Photo by <a href="https://unsplash.com/@robbiepalmer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robbie Palmer</a> on <a href="https://unsplash.com/s/photos/ottawa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+pfp.jpg:      Me
+toronto.jpg:  Photo by <a href="https://unsplash.com/@touann?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Touann Gatouillat Vergos</a> on <a href="https://unsplash.com/s/photos/toronto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+uoft.jpg:     https://www.logo.wine/logo/University_of_Toronto
