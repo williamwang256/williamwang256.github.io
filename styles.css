@@ -42,6 +42,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 5%;
 }
 
 .pic {
@@ -53,28 +54,8 @@ body {
   max-height: 100%;
   max-width: 100%;
   margin-top: 40px;
+  border-radius: 5%;
 }
-
-/* .collapsible {
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  font-family: Garamond;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #CCCCCC;
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-} */
 
 .description-text {
   text-align: justify;
