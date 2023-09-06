@@ -533,3 +533,21 @@ section .container {
   color: #A0C382;
   transition: 0.3s;
 }
+
+
+
+
+.photo {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 50%;
+  filter: drop-shadow(0 0 10px rgb(170, 170, 170));
+}
+
+.caption {
+  text-align: center;
+  margin-bottom: 30px;
+}
