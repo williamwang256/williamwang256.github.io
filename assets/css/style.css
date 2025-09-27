@@ -47,6 +47,55 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
+# Accessibility Controls
+--------------------------------------------------------------*/
+.accessibility-controls {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.contrast-toggle {
+  background: rgba(160, 195, 130, 0.9);
+  border: 2px solid #A0C382;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #000;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contrast-toggle:hover {
+  background: #A0C382;
+  transform: scale(1.1);
+}
+
+.contrast-toggle:focus {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+  .accessibility-controls {
+    top: 10px;
+    right: 60px;
+  }
+  
+  .contrast-toggle {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
@@ -550,4 +599,228 @@ section .container {
 .caption {
   text-align: center;
   margin-bottom: 30px;
+}
+
+/*--------------------------------------------------------------
+# High Contrast Mode
+--------------------------------------------------------------*/
+body.high-contrast {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+body.high-contrast::before {
+  background: #000000 !important;
+  background-image: none !important;
+}
+
+/* Header styles in high contrast */
+body.high-contrast #header h1 a,
+body.high-contrast #header h1 a:hover {
+  color: #ffffff !important;
+}
+
+body.high-contrast #header h2 {
+  color: #ffff00 !important;
+}
+
+body.high-contrast #header h2 span {
+  color: #ffff00 !important;
+  border-bottom: 2px solid #ffff00 !important;
+}
+
+/* Navigation in high contrast */
+body.high-contrast .navbar a,
+body.high-contrast .navbar a:focus {
+  color: #ffffff !important;
+  background: transparent !important;
+}
+
+body.high-contrast .navbar a:hover,
+body.high-contrast .navbar .active,
+body.high-contrast .navbar .active:focus,
+body.high-contrast .navbar li:hover > a {
+  color: #ffff00 !important;
+  background: #333333 !important;
+}
+
+body.high-contrast .navbar a:before {
+  background-color: #ffff00 !important;
+}
+
+/* Mobile navigation */
+body.high-contrast .mobile-nav-toggle {
+  color: #ffffff !important;
+  background: #000000 !important;
+  border: 2px solid #ffffff !important;
+}
+
+body.high-contrast .navbar-mobile {
+  background: #000000 !important;
+  border: 2px solid #ffffff !important;
+}
+
+body.high-contrast .navbar-mobile ul {
+  border: 2px solid #ffffff !important;
+  background: #000000 !important;
+}
+
+body.high-contrast .navbar-mobile a,
+body.high-contrast .navbar-mobile a:focus {
+  color: #ffffff !important;
+}
+
+/* Social links in high contrast */
+body.high-contrast .social-links a {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+}
+
+body.high-contrast .social-links a:hover {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Header top state */
+body.high-contrast #header.header-top {
+  background-color: #000000 !important;
+  border-bottom: 2px solid #ffffff !important;
+}
+
+/* Sections in high contrast */
+body.high-contrast section .container {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  border: 2px solid #ffffff !important;
+  color: #ffffff !important;
+}
+
+body.high-contrast .section-title h2 {
+  color: #ffffff !important;
+}
+
+body.high-contrast .section-title h2::after {
+  background: #ffff00 !important;
+}
+
+body.high-contrast .section-title p {
+  color: #ffff00 !important;
+}
+
+/* About section */
+body.high-contrast .about-me .content h3 {
+  color: #ffff00 !important;
+}
+
+body.high-contrast .about-me .content ul i {
+  color: #ffff00 !important;
+}
+
+body.high-contrast #pfp {
+  border: 3px solid #ffffff !important;
+  
+}
+
+/* Resume sections */
+body.high-contrast .resume .resume-title {
+  color: #ffff00 !important;
+}
+
+body.high-contrast .resume .resume-item {
+  border-left: 2px solid #ffffff !important;
+}
+
+body.high-contrast .resume .resume-item h4 {
+  color: #ffff00 !important;
+}
+
+body.high-contrast .resume .resume-item h5 {
+  background: #333333 !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+}
+
+body.high-contrast .resume .resume-item::before {
+  background: #ffffff !important;
+}
+
+/* Links in high contrast */
+body.high-contrast a {
+  color: #ffff00 !important;
+  text-decoration: underline !important;
+}
+
+body.high-contrast a:hover {
+  color: #ffffff !important;
+  background: #333333 !important;
+  text-decoration: underline !important;
+}
+
+/* Images in high contrast */
+body.high-contrast .photo {
+  border: 3px solid #ffffff !important;
+}
+
+body.high-contrast .project_image {
+  border: 3px solid #ffffff !important;
+}
+
+/* Credits/Footer */
+body.high-contrast .credits {
+  background: rgba(0, 0, 0, 0.95) !important;
+  color: #ffffff !important;
+  border-top: 2px solid #ffffff !important;
+}
+
+body.high-contrast .credits a {
+  color: #ffff00 !important;
+}
+
+/* Contrast toggle button in high contrast mode */
+body.high-contrast .contrast-toggle {
+  background: #000000 !important;
+  border: 3px solid #ffffff !important;
+  color: #ffffff !important;
+}
+
+body.high-contrast .contrast-toggle:hover {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+body.high-contrast .contrast-toggle:focus {
+  outline: 3px solid #ffff00 !important;
+}
+
+/* Form elements (if any are added later) */
+body.high-contrast input,
+body.high-contrast textarea,
+body.high-contrast select {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+}
+
+body.high-contrast input:focus,
+body.high-contrast textarea:focus,
+body.high-contrast select:focus {
+  outline: 3px solid #ffff00 !important;
+  outline-offset: 2px;
+}
+
+/* Buttons in high contrast */
+body.high-contrast button {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+}
+
+body.high-contrast button:hover {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+body.high-contrast button:focus {
+  outline: 3px solid #ffff00 !important;
+  outline-offset: 2px;
 }

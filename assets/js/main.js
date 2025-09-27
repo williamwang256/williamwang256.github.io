@@ -147,4 +147,102 @@
     }
   });
 
+  /**
+   * High Contrast Mode Toggle
+   */
+  const contrastToggle = select('#high-contrast-toggle')
+  
+  // Check for saved contrast preference or system preference
+  const savedContrast = localStorage.getItem('high-contrast-mode')
+  const systemPrefersHighContrast = window.matchMedia('(prefers-contrast: high)').matches
+  
+  if (savedContrast === 'enabled' || (savedContrast === null && systemPrefersHighContrast)) {
+    document.body.classList.add('high-contrast')
+    updateContrastButton(true)
+  }
+  
+  // Listen for system contrast preference changes
+  if (window.matchMedia) {
+    const contrastMediaQuery = window.matchMedia('(prefers-contrast: high)')
+    contrastMediaQuery.addEventListener('change', function(e) {
+      // Only auto-update if user hasn't manually set a preference
+      const savedContrast = localStorage.getItem('high-contrast-mode')
+      if (savedContrast === null) {
+        if (e.matches) {
+          document.body.classList.add('high-contrast')
+          updateContrastButton(true)
+        } else {
+          document.body.classList.remove('high-contrast')
+          updateContrastButton(false)
+        }
+      }
+    })
+  }
+  
+  // Keyboard shortcut for high contrast (Ctrl/Cmd + Shift + C)
+  document.addEventListener('keydown', function(e) {
+    if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'c') {
+      e.preventDefault()
+      if (contrastToggle) {
+        contrastToggle.click()
+      }
+    }
+  })
+  
+  // Toggle high contrast mode
+  if (contrastToggle) {
+    on('click', '#high-contrast-toggle', function(e) {
+      document.body.classList.toggle('high-contrast')
+      const isHighContrast = document.body.classList.contains('high-contrast')
+      
+      // Save preference
+      localStorage.setItem('high-contrast-mode', isHighContrast ? 'enabled' : 'disabled')
+      
+      // Update button appearance and label
+      updateContrastButton(isHighContrast)
+      
+      // Announce change to screen readers
+      announceContrastChange(isHighContrast)
+    })
+  }
+  
+  // Update contrast button appearance and accessibility
+  function updateContrastButton(isHighContrast) {
+    const button = select('#high-contrast-toggle')
+    const icon = button.querySelector('i')
+    
+    if (isHighContrast) {
+      button.setAttribute('aria-label', 'Disable high contrast mode (Ctrl+Shift+C)')
+      button.setAttribute('title', 'Disable high contrast mode (Ctrl+Shift+C)')
+      icon.className = 'bi bi-brightness-high'
+    } else {
+      button.setAttribute('aria-label', 'Enable high contrast mode (Ctrl+Shift+C)')
+      button.setAttribute('title', 'Enable high contrast mode (Ctrl+Shift+C)')
+      icon.className = 'bi bi-circle-half'
+    }
+  }
+  
+  // Announce contrast mode change to screen readers
+  function announceContrastChange(isHighContrast) {
+    const announcement = document.createElement('div')
+    announcement.setAttribute('aria-live', 'polite')
+    announcement.setAttribute('aria-atomic', 'true')
+    announcement.style.position = 'absolute'
+    announcement.style.left = '-10000px'
+    announcement.style.width = '1px'
+    announcement.style.height = '1px'
+    announcement.style.overflow = 'hidden'
+    
+    announcement.textContent = isHighContrast ? 
+      'High contrast mode enabled' : 
+      'High contrast mode disabled'
+    
+    document.body.appendChild(announcement)
+    
+    // Remove the announcement after screen readers have had time to read it
+    setTimeout(() => {
+      document.body.removeChild(announcement)
+    }, 1000)
+  }
+
 })()
