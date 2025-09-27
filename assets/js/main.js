@@ -245,4 +245,23 @@
     }, 1000)
   }
 
+  /**
+   * Initialize Content Manager
+   */
+  window.addEventListener('load', async () => {
+    if (window.ContentManager) {
+      const contentManager = new ContentManager();
+      
+      // Check for saved language preference
+      const savedLanguage = localStorage.getItem('preferred-language') || 'en';
+      
+      try {
+        await contentManager.init(savedLanguage);
+        console.log('Content Manager initialized successfully');
+      } catch (error) {
+        console.error('Failed to initialize Content Manager:', error);
+      }
+    }
+  });
+
 })()
