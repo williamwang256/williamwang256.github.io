@@ -10,11 +10,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Quicksand", sans-serif;
   background-color: #040404;
-  color: gray;
+  color: #707070;
   position: relative;
   background: transparent;
+  font-size: 18px;
 }
 
 body::before {
@@ -43,15 +44,6 @@ a {
 a:hover {
   color: #5f3c7d;
   text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Raleway, serif;
 }
 
 /*--------------------------------------------------------------
@@ -110,7 +102,7 @@ h6 {
 }
 
 #header .social-links a {
-  font-size: 16px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -228,7 +220,7 @@ h6 {
   justify-content: space-between;
   padding: 0;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
@@ -273,6 +265,8 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
+  background: none;
+  border: none;
   color: #A0C382;
   font-size: 28px;
   cursor: pointer;
@@ -282,6 +276,12 @@ h6 {
   position: fixed;
   right: 15px;
   top: 15px;
+  padding: 5px;
+}
+
+.mobile-nav-toggle:focus {
+  outline: 2px solid #A0C382;
+  outline-offset: 2px;
 }
 
 @media (max-width: 991px) {
@@ -336,7 +336,7 @@ h6 {
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
 }
 
@@ -362,7 +362,6 @@ section.section-show {
 }
 
 section .container {
-  /* background: #fff; */
   border-radius: 20px;
   padding: 30px;
   background-color: rgba(255, 255, 255, 0.85);
@@ -388,8 +387,7 @@ section .container {
   line-height: 1px;
   margin: 0 0 20px 0;
   letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #aaaaaa;
+  color: #707070;
   font-family: "Raleway", sans-serif;
 }
 
@@ -407,7 +405,6 @@ section .container {
   margin: -15px 0 15px 0;
   font-size: 36px;
   font-weight: 700;
-  text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   color: #A0C382;
 }
@@ -437,7 +434,7 @@ section .container {
 }
 
 .about-me .content ul i {
-  font-size: 16px;
+  font-size: 18px;
   margin-right: 5px;
   color: #A0C382;
   line-height: 0;
@@ -469,7 +466,7 @@ section .container {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid light gray;
+  border-left: 2px solid light #707070;
   position: relative;
 }
 
@@ -477,15 +474,13 @@ section .container {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   color: #A0C382;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
-  font-size: 16px;
-  background: rgba(255, 255, 255, 0.15);
+  font-size: 18px;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -533,13 +528,22 @@ section .container {
 }
 
 .photo {
-  border-radius: 65px;
   display: block;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
-  width: 50%;
+  width: 45%;
+  filter: drop-shadow(0 0 10px rgb(170, 170, 170));
+}
+
+.project_image {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 35%;
   filter: drop-shadow(0 0 10px rgb(170, 170, 170));
 }
 
