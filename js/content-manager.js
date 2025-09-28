@@ -36,25 +36,8 @@ class ContentManager {
         this.content = window.siteContent;
         return;
       }
-      
-      // Fallback: try to fetch from JSON file (requires HTTP server)
-      const response = await fetch('assets/data/content.json');
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      this.content = await response.json();
     } catch (error) {
       console.error('Failed to load content:', error);
-      // If both methods fail, provide basic fallback content
-      this.content = {
-        languages: { en: "English" },
-        content: {
-          en: {
-            meta: { title: "William Wang", description: "", keywords: "" },
-            header: { name: "William Wang", subtitle: "Loading...", navigation: [] }
-          }
-        }
-      };
     }
   }
 
