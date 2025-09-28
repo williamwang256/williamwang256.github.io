@@ -100,10 +100,10 @@ window.siteContent = {
           },
           {
             "title": "Software Engineer Intern – Test Automation",
-            "company": "Ciena Corporation",
+            "company": "Ciena",
             "location": "Ottawa, ON",
             "period": "May 2020 - August 2020",
-            "description": "During the summer of 2020, I joined Ciena Corporation as an intern with the Packet Control Plane team. I designed, implemented, and maintained code for an elaborate test automation framework in Python. One of my accomplishments was expanding the reporting of test case failures by getting additional information from test logs and displaying it using clear and easy-to-read tables in automatic email reports. A unique project I worked on involved producing short tutorial videos to document and showcase features in a creative and engaging way to promote our team's work to others in the organization."
+            "description": "During the summer of 2020, I joined Ciena as an intern with the Packet Control Plane team. I designed, implemented, and maintained code for an elaborate test automation framework in Python. One of my accomplishments was expanding the reporting of test case failures by getting additional information from test logs and displaying it using clear and easy-to-read tables in automatic email reports. A unique project I worked on involved producing short tutorial videos to document and showcase features in a creative and engaging way to promote our team's work to others in the organization."
           }
         ]
       },
@@ -181,10 +181,6 @@ window.siteContent = {
       "resume": {
         "title": "Resume",
         "subtitle": "Resume",
-        "description": "My latest resume. Last updated on 2025-09-27.",
-        "downloadText": "Download",
-        "downloadUrl": "assets/documents/williamwang_resume.pdf",
-        "filename": "williamwang_resume.pdf"
       },
       "hobbies": {
         "title": "Hobbies",
@@ -288,13 +284,8 @@ window.siteContent = {
           },
           {
             "title": "Hiking & Outdoors",
-            "description": "In the summer, I like to go hiking and biking, and in the winter I go cross-country skiing in and around my hometown of Ottawa, Ontario.",
+            "description": "In the summer, I like to go hiking and biking, and in the winter I go cross-country skiing in and around my hometown of Ottawa.",
             "images": [
-              {
-                "src": "assets/photos/mtwsh.jpg",
-                "alt": "Mt. Washington, New Hampshire", 
-                "caption": ""
-              },
               {
                 "src": "assets/photos/hikingwsh.jpg",
                 "alt": "Hiking up Mt. Washington, New Hampshire",
@@ -430,11 +421,11 @@ window.siteContent = {
             ]
           },
           {
-            "title": "Software Engineer Intern – Test Automation",
-            "company": "Ciena Corporation",
+            "title": "Stagiaire ingénieur logiciel – Automisation des tests",
+            "company": "Ciena",
             "location": "Ottawa, ON",
-            "period": "May 2020 - August 2020",
-            "description": "During the summer of 2020, I joined Ciena Corporation as an intern with the Packet Control Plane team. I designed, implemented, and maintained code for an elaborate test automation framework in Python. One of my accomplishments was expanding the reporting of test case failures by getting additional information from test logs and displaying it using clear and easy-to-read tables in automatic email reports. A unique project I worked on involved producing short tutorial videos to document and showcase features in a creative and engaging way to promote our team's work to others in the organization."
+            "period": "Mai 2020 - Août 2020",
+            "description": "Au cours de l'été 2020, j'ai rejoint Ciena en tant que stagiaire avec l'équipe de Packet Control Plane. J'ai conçu, mis en œuvre et maintenu le code d'un cadre d'automatisation des tests élaboré en Python. L'une de mes réalisations a été d'élargir le rapport des résultats de cas de test en obtenant des informations supplémentaires à partir des journaux de test et en les affichant à l'aide de tableaux dans des rapports par courriel automatiques. Un projet unique sur lequel j'ai travaillé consistait à produire de courtes vidéos pour documenter et présenter des fonctionnalités de manière créative et engageante afin de promouvoir le travail de notre équipe avec des autres membres de l'organisation."
           }
         ]
       },
@@ -442,26 +433,209 @@ window.siteContent = {
         "title": "Formation",
         "items": [
           {
-            "title": "Baccalauréat ès sciences avec distinction – Spécialiste en informatique, mineure en mathématiques",
+            "title": "Baccalauréat en sciences – Spécialiste en informatique, mineure en mathématiques",
             "institution": "Université de Toronto",
             "period": "Septembre 2019 - Avril 2024",
-            "description": "J'ai obtenu mon diplôme de premier cycle en informatique et mathématiques en 2024, diplômé avec grande distinction."
+            "description": "J'ai obtenu mon diplôme de premier cycle en informatique et mathématiques en 2024. J'ai suivi des cours sur les structures de données et les algorithmes, le génie logiciel, les réseaux neuronaux et l'apprentissage profond, l'intelligence artificielle, l'apprentissage automatique, les systèmes d'exploitation, le calcul parallèle, les bases de données et le développement web."
+          },
+          {
+            "title": "Diplôme du Baccalauréat International & Diplôme d'études secondaires de l'Ontario",
+            "institution": "École secondaire Colonel By",
+            "period": "Septembre 2015 - Juin 2019",
+            "description": "J'ai terminé ma formation secondaire avec un Diplôme du Baccalauréat International. J'ai été reconnu comme un Ontario Scholar en juin 2019 et j'ai obtenu la certification DELF B1 en langue française en janvier 2019."
           }
         ]
       },
       "portfolio": {
-        "title": "Portfolio"
+        "title": "Portfolio",
+        "items": [
+          {
+            "title": "Classification des chants d'oiseaux basée sur des images",
+            "links": [
+              {
+                "text": "GitHub",
+                "url": "https://github.com/williamwang256/csc413-project.git"
+              }
+            ],
+            "description": "Dans le cadre du cours « CSC413 Neural Networks and Deep Learning » à l'Université de Toronto, j'ai collaboré avec une équipe d'autres étudiants pour étudier la tâche de classification des espèces d'oiseaux à l'aide de signaux audio transformés en représentations visuelles. En convertissant les enregistrements de chants d'oiseaux en images de spectrogrammes, nous avons permis l'utilisation de modèles de vision par ordinateur - en particulier ResNet50 et Vision Transformer (ViT) - pour effectuer une classification basée sur les images. L'ensemble de données « British Birdsong », qui comprend des enregistrements de 88 espèces d'oiseaux indigènes britanniques, a servi de base à nos expériences.",
+            "image": {
+              "src": "assets/photos/attn_map.png",
+              "alt": "Map d'attention du modèle Vision Transformer mettant en évidence les régions importantes d'une image de spectrogramme pour la classification des chants d'oiseaux",
+              "class": "project_image"
+            }
+          },
+          {
+            "title": "Bibliothèque de multiplication matricielle à réseau systolique",
+            "links": [
+              {
+                "text": "GitHub",
+                "url": "https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL_FPGA/ReferenceDesigns/matmul"
+              }
+            ],
+            "description": "Pendant mon stage chez Intel, j'ai conçu, optimisé et construit un exemple de code de multiplication matricielle qui sert à la fois de bibliothèque réutilisable et d'implémentation de référence pour les calculations d'algèbre linéaire, une opération fréquemment utilisée dans les mathématiques, la science et l'IA. Tout au long du développement, j'ai collaboré avec des équipes de compilateurs pour intégrer des fonctionnalités avancées de compilateurs et maximiser les performances. J'ai eu l'occasion de présenter ma travail lors d'un symposium interne, en présentant à la fois la conception et nos outils à un public technique. Ce projet a renforcé ma capacité à écrire et documenter un code efficace et lisible, à gérer une initiative technique autodirigée et à solliciter des commentaires pour affiner mon approche. La conception finale est maintenant publiée dans le dépôt open-source oneAPI-samples d'Intel.",
+            "image": {
+              "src": "assets/photos/overview.png",
+              "alt": "Aperçu de l'architecture de la bibliothèque de multiplication matricielle à réseau systolique",
+              "class": "project_image"
+            }
+          },
+          {
+            "title": "Outil de recherche juridique alimenté par l'IA",
+            "note": "Le code de ce projet n'est pas disponible publiquement mais peut être discuté plus en détail sur demande.",
+            "description": "Au cours de l'hiver 2022, j'ai collaboré avec une équipe de Lexata, Inc. pour développer un outil de recherche innovant qui simplifie la découverte des règles juridiques pour les équipes juridiques. En tirant parti des capacités de recherche sémantique GPT-3 d'OpenAI, notre solution permet aux utilisateurs de récupérer des sections pertinentes de documents juridiques avec précision, éliminant ainsi le besoin de parcourir manuellement des textes volumineux. Mes contributions ont inclus la conception d'une architecture de base de données flexible et d'un système backend qui ont amélioré à la fois l'efficacité du développement et la scalabilité. J'ai également acquis une expérience pratique dans l'ensemble de la pile logicielle, y compris le développement d'API backend et l'intégration CI/CD. Ce projet a approfondi ma compréhension de l'ingénierie full-stack et a renforcé la valeur d'une conception systématique réfléchie pour accélérer la productivité de l'équipe."
+          },
+          {
+            "title": "Simple Map Diagrams - Bibliothèque Front-End",
+            "links": [
+              {
+                "text": "GitHub",
+                "url": "https://github.com/williamwang256/simple-map-diagrams-SMD"
+              },
+              {
+                "text": "live demo page",
+                "url": "https://williamwang256.github.io/simple-map-diagrams-SMD/"
+              }
+            ],
+            "description": "Simple Map Diagrams est une bibliothèque JavaScript front-end que j'ai développée en tant que projet individuel pour le cours « CSC309 Programming on the Web » à l'Université de Toronto. Conçue pour simplifier la création de mini-cartes interactives pour les applications web, la bibliothèque permet aux développeurs de créer des composants cartographiques personnalisables et spécifiques à un objectif avec facilité. Ce projet a réuni plusieurs de mes intérêts personnels, notamment le développement de logiciels, la géographie et la cartographie en un outil cohérent et pratique pour le développement web."
+          }
+        ]
       },
       "resume": {
         "title": "CV",
         "subtitle": "CV",
-        "description": "Mon CV le plus récent. Dernière mise à jour le 27-09-2025.",
-        "downloadText": "Télécharger",
-        "downloadUrl": "assets/documents/williamwang_resume.pdf",
-        "filename": "williamwang_resume.pdf"
       },
       "hobbies": {
-        "title": "Loisirs"
+        "title": "Loisirs",
+        "sections": [
+          {
+            "title": "Photographie",
+            "description": "J'aime la photographie ! Voici quelques-unes de mes photos préférées.",
+            "images": [
+              {
+                "src": "assets/photos/milkyway.jpg",
+                "alt": "Voie lactée au Torrance Barrens Dark-Sky Preserve",
+                "caption": "Voie lactée au Torrance Barrens Dark-Sky Preserve"
+              },
+              {
+                "src": "assets/photos/aurora.jpg", 
+                "alt": "Aurore boréale à Ottawa",
+                "caption": "Aurore boréale à Ottawa"
+              },
+              {
+                "src": "assets/photos/highpark.jpg",
+                "alt": "High Park",
+                "caption": "High Park"
+              },
+              {
+                "src": "assets/photos/harbourfront.jpg",
+                "alt": "Toronto Harbourfront", 
+                "caption": "Toronto Harbourfront"
+              },
+              {
+                "src": "assets/photos/toronto.jpg",
+                "alt": "Marché Kensington",
+                "caption": "Marché Kensington"
+              },
+              {
+                "src": "assets/photos/uppercanadavillage.jpg",
+                "alt": "Upper Canada Village",
+                "caption": "Upper Canada Village"
+              },
+              {
+                "src": "assets/photos/ns.jpg",
+                "alt": "Peggy's Cove, Nouvelle-Écosse", 
+                "caption": "Peggy's Cove, Nouvelle-Écosse"
+              },
+              {
+                "src": "assets/photos/tulips.jpg",
+                "alt": "Festival des tulipes à Ottawa",
+                "caption": "Festival des tulipes à Ottawa"
+              },
+              {
+                "src": "assets/photos/lionshead.jpg",
+                "alt": "Phare de Lion's Head, Péninsule de Bruce, Ontario",
+                "caption": "Phare de Lion's Head, Péninsule de Bruce, Ontario"
+              },
+              {
+                "src": "assets/photos/china.jpg",
+                "alt": "Xi'an, Chine",
+                "caption": "Xi'an, Chine"
+              },
+              {
+                "src": "assets/photos/uoft.jpg",
+                "alt": "University College à l'Université de Toronto",
+                "caption": "University College à l'Université de Toronto"
+              }
+            ]
+          },
+          {
+            "title": "Dessin & Peinture",
+            "description": "J'aime la peinture à l'huile ainsi que l'art numérique sur mon iPad.",
+            "images": [
+              {
+                "src": "assets/drawings/train.jpg",
+                "alt": "Train de marchandises dans les montagnes Rocheuses (peinture à l'huile)",
+                "caption": "Train de marchandises dans les montagnes Rocheuses (peinture à l'huile)"
+              },
+              {
+                "src": "assets/drawings/tree.jpg",
+                "alt": "Forêt (peinture à l'huile)",
+                "caption": "Forêt (peinture à l'huile)"
+              },
+              {
+                "src": "assets/drawings/via.png",
+                "alt": "Le Canadien (peinture numérique)",
+                "caption": "Le Canadien (peinture numérique)"
+              },
+              {
+                "src": "assets/drawings/leaf.png",
+                "alt": "Feuilles d'automne (peinture numérique)",
+                "caption": "Feuilles d'automne (peinture numérique)"
+              },
+              {
+                "src": "assets/drawings/ttc.png",
+                "alt": "TTC streetcar (croquis numérique)",
+                "caption": "TTC streetcar (croquis numérique)"
+              },
+              {
+                "src": "assets/drawings/car.png",
+                "alt": "Voiture vintage (croquis numérique)",
+                "caption": "Voiture vintage (croquis numérique)"
+              }
+            ]
+          },
+          {
+            "title": "Hiking & Plein air",
+            "description": "En été, j'aime faire du hiking et du vélo, et en hiver, je fais du ski de fond dans ma ville natale d'Ottawa.",
+            "images": [
+              {
+                "src": "assets/photos/hikingwsh.jpg",
+                "alt": "Du hiking à Mt. Washington, New Hampshire",
+                "caption": "Du hiking à Mt. Washington, New Hampshire"
+              },
+              {
+                "src": "assets/photos/biking.jpg",
+                "alt": "Du vélo sur le sentier de la rivière des Outaouais de la CCN",
+                "caption": "Du vélo sur le sentier de la rivière des Outaouais de la CCN"
+              },
+              {
+                "src": "assets/photos/hiking.jpg", 
+                "alt": "Du hiking au parc provincial Bon Echo d'Ontario",
+                "caption": "Du hiking au parc provincial Bon Echo d'Ontario"
+              },
+              {
+                "src": "assets/photos/canoeing.jpg",
+                "alt": "Du canoë au parc provincial Bon Echo d'Ontario",
+                "caption": "Du canoë au parc provincial Bon Echo d'Ontario"
+              },
+              {
+                "src": "assets/photos/ccski.jpg",
+                "alt": "Ski de fond, ceinture de verdure de la CCN, Ottawa",
+                "caption": "Ski de fond, ceinture de verdure de la CCN, Ottawa"
+              }
+            ]
+          }
+        ]
       },
       "footer": {
         "credit": "Conçu par",
