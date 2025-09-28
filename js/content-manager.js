@@ -229,20 +229,17 @@ class ContentManager {
       html += '</ul>';
     }
     
-    div.innerHTML = html;
-    
-    // Add links if they exist
     if (item.links) {
-      const description = div.getElementsByTagName('p')[1];
       item.links.forEach(link => {
         const linkText = link.text;
         const linkUrl = link.url;
         const regex = new RegExp(linkText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
-        description.innerHTML = description.innerHTML.replace(regex, 
+        html = html.replace(regex,
           `<a href="${linkUrl}" target="_blank" rel="noopener">${linkText}</a>`);
       });
     }
-    
+
+    div.innerHTML = html;
     return div;
   }
 
@@ -315,34 +312,24 @@ class ContentManager {
     
     let html = `
       <br>
-      <h4>${item.title}</h4>`;
+      <h4>${item.title}</h4>
+      <h5>${item.note}</h5>
+      <p>${item.description}</p>`;
     
+    if (item.image) {
+      html += `<img src="${item.image.src}" class="${item.image.class || 'project_image'}" alt="${item.image.alt}">`;
+    }
 
-    html += `<h5>${item.note}</h5>`;
-    // item.links.forEach((link, index) => {
-    //   if (index > 0) html += ' and ';
-    //   html += `<a href="${link.url}" target="_blank" rel="noopener">${link.text}</a>`;
-    // });
-    item.links.forEach(link => {
+    if (item.links) {
+      item.links.forEach(link => {
         const linkText = link.text;
         const linkUrl = link.url;
         const regex = new RegExp(linkText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
         html = html.replace(regex, 
           `<a href="${linkUrl}" target="_blank" rel="noopener">${linkText}</a>`);
-    });
-    console.log(html);
-    
-    
-    // if (item.note) {
-    //   html += `<h5>${item.note}</h5>`;
-    // }
-    
-    html += `<p>${item.description}</p>`;
-    
-    if (item.image) {
-      html += `<img src="${item.image.src}" class="${item.image.class || 'project_image'}" alt="${item.image.alt}">`;
+      });
     }
-    
+
     div.innerHTML = html;
     return div;
   }
