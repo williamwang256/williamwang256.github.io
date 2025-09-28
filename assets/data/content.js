@@ -187,7 +187,7 @@ window.siteContent = {
         "sections": [
           {
             "title": "Photography",
-            "description": "I enjoy photography! Here are some of my favourite shots.",
+            "description": "I enjoy photography! I started taking photos as a kid, mostly on trips, just trying to capture what felt meaningful. Over time, it became one of my favorite ways to explore and document my memories. Here are some of my favourite shots.",
             "images": [
               {
                 "src": "assets/photos/milkyway.jpg",
@@ -248,7 +248,7 @@ window.siteContent = {
           },
           {
             "title": "Drawing & Painting", 
-            "description": "I enjoy oil painting as well as digital art on my iPad.",
+            "description": "I enjoy painting, sometimes on a canvas, sometimes digitally.",
             "images": [
               {
                 "src": "assets/drawings/train.jpg",
@@ -284,13 +284,8 @@ window.siteContent = {
           },
           {
             "title": "Hiking & Outdoors",
-            "description": "In the summer, I like to go hiking and biking, and in the winter I go cross-country skiing in and around my hometown of Ottawa.",
+            "description": "I've always enjoyed being outside; hiking in the summer, and skiing in the winter. I grew up exploring the outdoors around Ottawa, and it's still one of my favourite ways to spend time with family and friends.",
             "images": [
-              {
-                "src": "assets/photos/hikingwsh.jpg",
-                "alt": "Hiking up Mt. Washington, New Hampshire",
-                "caption": "Hiking up Mt. Washington, New Hampshire"
-              },
               {
                 "src": "assets/photos/biking.jpg",
                 "alt": "Biking along the NCC Ottawa River Pathway",
@@ -310,6 +305,11 @@ window.siteContent = {
                 "src": "assets/photos/ccski.jpg",
                 "alt": "Cross-country skiing, NCC Greenbelt, Ottawa",
                 "caption": "Cross-country skiing, NCC Greenbelt, Ottawa"
+              },
+              {
+                "src": "assets/photos/hikingwsh.jpg",
+                "alt": "Hiking up Mt. Washington, New Hampshire",
+                "caption": "Hiking up Mt. Washington, New Hampshire"
               }
             ]
           }
@@ -509,7 +509,7 @@ window.siteContent = {
         "sections": [
           {
             "title": "Photographie",
-            "description": "J'aime la photographie ! Voici quelques-unes de mes photos préférées.",
+            "description": "J'aime la photographie ! J'ai commencé à prendre des photos quand j'étais enfant, principalement lors de voyages, en essayant simplement de capturer ce qui me semblait significatif. Avec le temps, c'est devenu l'une de mes façons préférées d'explorer et de documenter mes souvenirs. Voici quelques-unes de mes photos préférées.",
             "images": [
               {
                 "src": "assets/photos/milkyway.jpg",
@@ -570,7 +570,7 @@ window.siteContent = {
           },
           {
             "title": "Dessin & Peinture",
-            "description": "J'aime la peinture à l'huile ainsi que l'art numérique sur mon iPad.",
+            "description": "J'aime la peinture, parfois sur toile, parfois de manière numérique.",
             "images": [
               {
                 "src": "assets/drawings/train.jpg",
@@ -606,7 +606,7 @@ window.siteContent = {
           },
           {
             "title": "Hiking & Plein air",
-            "description": "En été, j'aime faire du hiking et du vélo, et en hiver, je fais du ski de fond dans ma ville natale d'Ottawa.",
+            "description": "J'aime les activités de plein air ; faire du hiking en été et du ski en hiver. J'ai grandi en explorant la nature autour d'Ottawa, et c'est toujours l'une de mes façons préférées de passer du temps avec ma famille et mes amis.",
             "images": [
               {
                 "src": "assets/photos/hikingwsh.jpg",

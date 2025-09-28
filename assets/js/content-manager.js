@@ -246,13 +246,11 @@ class ContentManager {
       html += '</ul>';
     }
     
-    html += '</p>';
-    
     div.innerHTML = html;
     
     // Add links if they exist
     if (item.links) {
-      const description = div.querySelector('p:last-child');
+      const description = div.getElementsByTagName('p')[1];
       item.links.forEach(link => {
         const linkText = link.text;
         const linkUrl = link.url;
