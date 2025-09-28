@@ -129,6 +129,7 @@ window.siteContent = {
         "items": [
           {
             "title": "Image-Based Bird Song Classification",
+            "note": "Repository on GitHub",
             "links": [
               {
                 "text": "GitHub",
@@ -144,6 +145,7 @@ window.siteContent = {
           },
           {
             "title": "Systolic-Array Matrix Multiplication Library",
+            "note": "Repository on GitHub",
             "links": [
               {
                 "text": "GitHub",
@@ -160,10 +162,12 @@ window.siteContent = {
           {
             "title": "AI-Powered Legal Search Tool",
             "note": "The code for this project is not publicly available but can be discussed further upon request.",
+            "links": [],
             "description": "During the winter of 2022, I collaborated with a team at Lexata, Inc. to develop an innovative search tool that streamlines legal rule discovery for legal teams. Leveraging OpenAI's GPT-3 semantic search capabilities, our solution enables users to retrieve relevant sections of legal documents with precision, eliminating the need to manually sift through extensive texts. My contributions included designing a flexible database architecture and backend system that enhanced both development efficiency and scalability. I also gained hands-on experience across the software stack, including backend API development and CI/CD integration. This project deepened my understanding of full-stack engineering and reinforced the value of thoughtful system design in accelerating team productivity."
           },
           {
             "title": "Simple Map Diagrams - Front-End Library",
+            "note": "Repository on GitHub and live demo page",
             "links": [
               {
                 "text": "GitHub",
@@ -451,6 +455,7 @@ window.siteContent = {
         "items": [
           {
             "title": "Classification des chants d'oiseaux basée sur des images",
+            "note": "Dépôt sur GitHub",
             "links": [
               {
                 "text": "GitHub",
@@ -466,6 +471,7 @@ window.siteContent = {
           },
           {
             "title": "Bibliothèque de multiplication matricielle à réseau systolique",
+            "note": "Dépôt sur GitHub",
             "links": [
               {
                 "text": "GitHub",
@@ -482,17 +488,19 @@ window.siteContent = {
           {
             "title": "Outil de recherche juridique alimenté par l'IA",
             "note": "Le code de ce projet n'est pas disponible publiquement mais peut être discuté plus en détail sur demande.",
+            "links": [],
             "description": "Au cours de l'hiver 2022, j'ai collaboré avec une équipe de Lexata, Inc. pour développer un outil de recherche innovant qui simplifie la découverte des règles juridiques pour les équipes juridiques. En tirant parti des capacités de recherche sémantique GPT-3 d'OpenAI, notre solution permet aux utilisateurs de récupérer des sections pertinentes de documents juridiques avec précision, éliminant ainsi le besoin de parcourir manuellement des textes volumineux. Mes contributions ont inclus la conception d'une architecture de base de données flexible et d'un système backend qui ont amélioré à la fois l'efficacité du développement et la scalabilité. J'ai également acquis une expérience pratique dans l'ensemble de la pile logicielle, y compris le développement d'API backend et l'intégration CI/CD. Ce projet a approfondi ma compréhension de l'ingénierie full-stack et a renforcé la valeur d'une conception systématique réfléchie pour accélérer la productivité de l'équipe."
           },
           {
             "title": "Simple Map Diagrams - Bibliothèque Front-End",
+            "note": "Dépôt sur GitHub et page de démonstration",
             "links": [
               {
                 "text": "GitHub",
                 "url": "https://github.com/williamwang256/simple-map-diagrams-SMD"
               },
               {
-                "text": "live demo page",
+                "text": "page de démonstration",
                 "url": "https://williamwang256.github.io/simple-map-diagrams-SMD/"
               }
             ],

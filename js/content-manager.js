@@ -317,18 +317,25 @@ class ContentManager {
       <br>
       <h4>${item.title}</h4>`;
     
-    if (item.links) {
-      html += '<h5>Repository on ';
-      item.links.forEach((link, index) => {
-        if (index > 0) html += ' and ';
-        html += `<a href="${link.url}" target="_blank" rel="noopener">${link.text}</a>`;
-      });
-      html += '.</h5>';
-    }
+
+    html += `<h5>${item.note}</h5>`;
+    // item.links.forEach((link, index) => {
+    //   if (index > 0) html += ' and ';
+    //   html += `<a href="${link.url}" target="_blank" rel="noopener">${link.text}</a>`;
+    // });
+    item.links.forEach(link => {
+        const linkText = link.text;
+        const linkUrl = link.url;
+        const regex = new RegExp(linkText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g');
+        html = html.replace(regex, 
+          `<a href="${linkUrl}" target="_blank" rel="noopener">${linkText}</a>`);
+    });
+    console.log(html);
     
-    if (item.note) {
-      html += `<h5>${item.note}</h5>`;
-    }
+    
+    // if (item.note) {
+    //   html += `<h5>${item.note}</h5>`;
+    // }
     
     html += `<p>${item.description}</p>`;
     
