@@ -1,0 +1,663 @@
+/**
+ * Content Data - Embedded content to avoid CORS issues
+ */
+window.siteContent = {
+  "languages": {
+    "en": "EN",
+    "fr": "FR"
+  },
+  "content": {
+    "en": {
+      "meta": {
+        "title": "William Wang - Software Developer | IBM Consulting",
+        "description": "William Wang is a Software Developer at IBM Consulting specializing in quality engineering and parallel computing platforms. View his portfolio, experience, and projects.",
+        "keywords": "William Wang, Software Developer, IBM Consulting, Quality Engineering, FPGA, Parallel Computing, Portfolio"
+      },
+      "header": {
+        "name": "William Wang",
+        "subtitle": "Developer, IBM Consulting",
+        "navigation": [
+          { "id": "header", "label": "Home" },
+          { "id": "about", "label": "About" },
+          { "id": "experience", "label": "Experience" },
+          { "id": "education", "label": "Education" },
+          { "id": "portfolio", "label": "Portfolio" },
+          { "id": "resume", "label": "Resume" },
+          { "id": "hobbies", "label": "Hobbies" }
+        ],
+        "social": {
+          "linkedin": {
+            "url": "https://www.linkedin.com/in/williamwang256",
+            "arialabel": "Visit William Wang's LinkedIn profile"
+          },
+          "github": {
+            "url": "https://www.github.com/williamwang256",
+            "arialabel": "Visit William Wang's GitHub profile"
+          }
+        }
+      },
+      "about": {
+        "title": "About",
+        "description": "I'm a Software Developer specializing in quality engineering and parallel computing platforms, bringing technical experience and a collaborative mindset to solve complex challenges and deliver client-tailored solutions. I'm passionate about building performant software and enjoy solving interesting algorithmic problems.",
+        "contact": {
+          "phone": {
+            "label": "Phone",
+            "value": "+1-437-220-4726",
+            "tel": "+14372204726"
+          },
+          "email": {
+            "label": "Email", 
+            "value": "williamwang256@gmail.com"
+          }
+        },
+        "profileImage": {
+          "src": "assets/img/me.jpg",
+          "alt": "Professional headshot of William Wang, Software Developer at IBM Consulting"
+        }
+      },
+      "experience": {
+        "title": "Experience",
+        "items": [
+          {
+            "title": "Software Developer – Quality Engineering",
+            "company": "IBM Consulting",
+            "location": "Toronto, ON",
+            "period": "May 2024 - present",
+            "description": "I am currently a Developer in IBM Consulting's Quality Engineering practice, where I leverage my proficiency in software development and my proven track record of collaborating with customers to effectively resolve technical challenges and provide tailored solutions. My current assignment is as a Quality Engineer with the General Insurance Statistical Agency (GISA), where we are implementing a frontend web portal as well as the backend database as a part of IBM's role as GISA's Statistical Service Provider. My contributions include:",
+            "achievements": [
+              "Designing and implementing quality assurance solutions across multiple layers of the technology stack, including the frontend (web portal), backend (database), PowerBI, and Exhibit generation teams.",
+              "Automating the upload of test data files to SQL databases, leveraging Python libraries to reduce runtime from days to hours.",
+              "Conducting automated scans and testing of web page and source code to detect and report defects related to accessibility, usability, and functionality, providing detailed descriptions and proposing remediation plans to the development team.",
+              "Automating the execution of regression tests using IBM's IGNITE OTFA tool alongside Java and Selenium.",
+              "Providing technical expertise in Web Content Accessibility Guidelines (WCAG) compliance verification."
+            ]
+          },
+          {
+            "title": "Software Engineer Intern – FPGA High Level Design Applications",
+            "company": "Intel – Programmable Solutions Group",
+            "location": "Toronto, ON", 
+            "period": "May 2022 - September 2023",
+            "description": "Between my third and fourth years of my undergraduate degree, I completed a 16-month internship at Intel with the Programmable Solutions Group. During my time there as a software applications engineer, I supported Intel's oneAPI DPC++ (Data Parallel C++) compiler for FPGAs (Field-Programmable Gate Arrays), through which I learned a lot about computer system architectures and gained invaluable experience writing and communicating clean and performant code. My work ranged from supporting customers to creating reference designs and tutorials for Intel's oneAPI code samples repository. I cooperated with compiler teams in designing and optimizing complex, high-performance algorithms in C++, while also leveraging my skills gained from developing libraries, tutorials, and reference designs to work in close liaison with clients. Some of my proudest accomplishments include:",
+            "achievements": [
+              "Designing and publishing a systolic-array matrix multiplication library using C++, which delivers a practical and reusable high-performance solution to a frequently employed operation in math, science, and AI.",
+              "Presenting and proposing coding techniques that streamlined user experience and decreased run time by up to 70%",
+              "Leading meetings with colleagues across the company to showcase features and gather feedback to drive product focus."
+            ],
+            "links": [
+              {
+                "text": "oneAPI DPC++ (Data Parallel C++) compiler",
+                "url": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler.html#gs.5gu3zx"
+              },
+              {
+                "text": "oneAPI code samples repository",
+                "url": "https://github.com/oneapi-src/oneAPI-samples"
+              },
+              {
+                "text": "systolic-array matrix multiplication library",
+                "url": "https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL_FPGA/ReferenceDesigns/matmul"
+              }
+            ]
+          },
+          {
+            "title": "Software Engineer Intern – Test Automation",
+            "company": "Ciena",
+            "location": "Ottawa, ON",
+            "period": "May 2020 - August 2020",
+            "description": "During the summer of 2020, I joined Ciena as an intern with the Packet Control Plane team. I designed, implemented, and maintained code for an elaborate test automation framework in Python. One of my accomplishments was expanding the reporting of test case failures by getting additional information from test logs and displaying it using clear and easy-to-read tables in automatic email reports. A unique project I worked on involved producing short tutorial videos to document and showcase features in a creative and engaging way to promote our team's work to others in the organization."
+          }
+        ]
+      },
+      "education": {
+        "title": "Education",
+        "items": [
+          {
+            "title": "Honours Bachelor of Science – Computer Science Specialist, Mathematics Minor",
+            "institution": "University of Toronto",
+            "period": "September 2019 - April 2024",
+            "description": "I earned my undergraduate degree in Computer Science and Mathematics in 2024, graduating with high distinction. I completed coursework in data structures & algorithms, software engineering, neural networks and deep learning, artificial intelligence, machine learning, operating systems, parallel computing, databases, and web development."
+          },
+          {
+            "title": "International Baccalaureate Diploma & Ontario Secondary School Diploma",
+            "institution": "Colonel By Secondary School", 
+            "period": "September 2015 - June 2019",
+            "description": "I completed my high school education with an International Baccalaureate Diploma. I was recognized as an Ontario Scholar in June 2019, and earned the DELF B1 French language certification in January 2019."
+          }
+        ]
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "items": [
+          {
+            "title": "Image-Based Bird Song Classification",
+            "note": "Repository on GitHub",
+            "links": [
+              {
+                "text": "GitHub",
+                "url": "https://github.com/williamwang256/csc413-project.git"
+              }
+            ],
+            "description": "As part of the CSC413 Neural Networks and Deep Learning course at the University of Toronto, I collaborated with a team of other students to investigate the task of bird species classification using audio signals transformed into visual representations. By converting bird song recordings into spectrogram images, we enabled the use of computer vision models—specifically ResNet50 and Vision Transformer (ViT)—to perform image-based classification. The British Birdsong Dataset, comprising recordings from 88 native British bird species, served as the foundation for our experiments.",
+            "image": {
+              "src": "assets/photos/attn_map.png",
+              "alt": "Attention map from Vision Transformer model highlighting important regions of a spectrogram image for bird song classification",
+              "class": "project_image"
+            }
+          },
+          {
+            "title": "Systolic-Array Matrix Multiplication Library",
+            "note": "Repository on GitHub",
+            "links": [
+              {
+                "text": "GitHub",
+                "url": "https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL_FPGA/ReferenceDesigns/matmul"
+              }
+            ],
+            "description": "During my internship at Intel, I designed, optimized, and built a matrix multiplication code sample that serves as both a reusable library and a reference implementation for linear algebra workloads, a frequently employed operation in math, science, and AI. Throughout development, I collaborated with compiler engineering teams to integrate advanced compiler features and maximize performance. I had the opportunity to present this work at an internal symposium, showcasing both the design and our broader tooling to a technical audience. This project strengthened my ability to write and document efficient, readable code, manage a self-directed technical initiative, and seek out feedback to refine my approach. The final design is now published in Intel's open-source oneAPI-samples repository.",
+            "image": {
+              "src": "assets/photos/overview.png",
+              "alt": "Overview of the Systolic-Array Matrix Multiplication Library architecture",
+              "class": "project_image"
+            }
+          },
+          {
+            "title": "AI-Powered Legal Search Tool",
+            "note": "The code for this project is not publicly available but can be discussed further upon request.",
+            "links": [],
+            "description": "During the winter of 2022, I collaborated with a team at Lexata, Inc. to develop an innovative search tool that streamlines legal rule discovery for legal teams. Leveraging OpenAI's GPT-3 semantic search capabilities, our solution enables users to retrieve relevant sections of legal documents with precision, eliminating the need to manually sift through extensive texts. My contributions included designing a flexible database architecture and backend system that enhanced both development efficiency and scalability. I also gained hands-on experience across the software stack, including backend API development and CI/CD integration. This project deepened my understanding of full-stack engineering and reinforced the value of thoughtful system design in accelerating team productivity."
+          },
+          {
+            "title": "Simple Map Diagrams - Front-End Library",
+            "note": "Repository on GitHub and live demo page",
+            "links": [
+              {
+                "text": "GitHub",
+                "url": "https://github.com/williamwang256/simple-map-diagrams-SMD"
+              },
+              {
+                "text": "live demo page",
+                "url": "https://williamwang256.github.io/simple-map-diagrams-SMD/"
+              }
+            ],
+            "description": "Simple Map Diagrams is a front-end JavaScript library I developed as an individual project for the CSC309 \"Programming on the Web\" course at the University of Toronto. Designed to simplify the creation of interactive mini-maps for web applications, the library enables developers to build highly customizable and purpose-specific map components with ease. This project brought together several of my personal interests, including software development, geography, and mapping into a cohesive and practical tool for web development."
+          }
+        ]
+      },
+      "resume": {
+        "title": "Resume",
+        "subtitle": "Resume",
+      },
+      "hobbies": {
+        "title": "Hobbies",
+        "sections": [
+          {
+            "title": "Photography",
+            "description": "I enjoy photography! I started taking photos as a kid, mostly on trips, just trying to capture what felt meaningful. Over time, it became one of my favorite ways to explore and document my memories. Here are some of my favourite shots.",
+            "images": [
+              {
+                "src": "assets/photos/milkyway.jpg",
+                "alt": "Milky Way at the Torrance Barrens Dark-Sky Preserve",
+                "caption": "Milky Way at the Torrance Barrens Dark-Sky Preserve"
+              },
+              {
+                "src": "assets/photos/aurora.jpg", 
+                "alt": "Aurora Borealis in Ottawa",
+                "caption": "Aurora Borealis in Ottawa"
+              },
+              {
+                "src": "assets/photos/highpark.jpg",
+                "alt": "High Park",
+                "caption": "High Park"
+              },
+              {
+                "src": "assets/photos/harbourfront.jpg",
+                "alt": "Toronto Harbourfront", 
+                "caption": "Toronto Harbourfront"
+              },
+              {
+                "src": "assets/photos/toronto.jpg",
+                "alt": "Kensington Market",
+                "caption": "Kensington Market"
+              },
+              {
+                "src": "assets/photos/uppercanadavillage.jpg",
+                "alt": "Upper Canada Village",
+                "caption": "Upper Canada Village"
+              },
+              {
+                "src": "assets/photos/ns.jpg",
+                "alt": "Peggy's Cove, Nova Scotia", 
+                "caption": "Peggy's Cove, Nova Scotia"
+              },
+              {
+                "src": "assets/photos/tulips.jpg",
+                "alt": "Tulip Festival in Ottawa",
+                "caption": "Tulip Festival in Ottawa"
+              },
+              {
+                "src": "assets/photos/lionshead.jpg",
+                "alt": "Lion's Head lighthouse, Bruce Peninsula, Ontario",
+                "caption": "Lion's Head lighthouse, Bruce Peninsula, Ontario"
+              },
+              {
+                "src": "assets/photos/china.jpg",
+                "alt": "Xi'an, China",
+                "caption": "Xi'an, China"
+              },
+              {
+                "src": "assets/photos/uoft.jpg",
+                "alt": "University College at U of T",
+                "caption": "University College at U of T"
+              }
+            ]
+          },
+          {
+            "title": "Drawing & Painting", 
+            "description": "I enjoy painting, sometimes on a canvas, sometimes digitally.",
+            "images": [
+              {
+                "src": "assets/drawings/train.jpg",
+                "alt": "Freight train in the Rocky Mountains (oil painting)",
+                "caption": "Freight train in the Rocky Mountains (oil painting)"
+              },
+              {
+                "src": "assets/drawings/tree.jpg", 
+                "alt": "Forest (oil painting)",
+                "caption": "Forest (oil painting)"
+              },
+              {
+                "src": "assets/drawings/via.png",
+                "alt": "The Canadian (digital painting)",
+                "caption": "The Canadian (digital painting)"
+              },
+              {
+                "src": "assets/drawings/leaf.png",
+                "alt": "Fall leaves (digital painting)", 
+                "caption": "Fall leaves (digital painting)"
+              },
+              {
+                "src": "assets/drawings/ttc.png",
+                "alt": "TTC streetcar (digital sketch)",
+                "caption": "TTC streetcar (digital sketch)"
+              },
+              {
+                "src": "assets/drawings/car.png",
+                "alt": "Vintage car (digital sketch)",
+                "caption": "Vintage car (digital sketch)"
+              }
+            ]
+          },
+          {
+            "title": "Hiking & Outdoors",
+            "description": "I've always enjoyed being outside; hiking in the summer, and skiing in the winter. I grew up exploring the outdoors around Ottawa, and it's still one of my favourite ways to spend time with family and friends.",
+            "images": [
+              {
+                "src": "assets/photos/biking.jpg",
+                "alt": "Biking along the NCC Ottawa River Pathway",
+                "caption": "Biking along the NCC Ottawa River Pathway"
+              },
+              {
+                "src": "assets/photos/hiking.jpg", 
+                "alt": "Hiking in Bon Echo Provincial Park, Ontario",
+                "caption": "Hiking in Bon Echo Provincial Park, Ontario"
+              },
+              {
+                "src": "assets/photos/canoeing.jpg",
+                "alt": "Canoeing in Bon Echo Provincial Park, Ontario",
+                "caption": "Canoeing in Bon Echo Provincial Park, Ontario"
+              },
+              {
+                "src": "assets/photos/ccski.jpg",
+                "alt": "Cross-country skiing, NCC Greenbelt, Ottawa",
+                "caption": "Cross-country skiing, NCC Greenbelt, Ottawa"
+              },
+              {
+                "src": "assets/photos/hikingwsh.jpg",
+                "alt": "Hiking up Mt. Washington, New Hampshire",
+                "caption": "Hiking up Mt. Washington, New Hampshire"
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "credit": "Designed by",
+        "creditUrl": "https://bootstrapmade.com/",
+        "creditText": "BootstrapMade"
+      },
+      "accessibility": {
+        "skipToMain": "Skip to main content",
+        "toggleNavigation": "Toggle navigation menu",
+        "toggleContrast": "Toggle high contrast mode",
+        "toggleContrastShortcut": "Ctrl+Shift+C",
+        "contrastEnabled": "High contrast mode enabled",
+        "contrastDisabled": "High contrast mode disabled"
+      }
+    },
+    "fr": {
+      "meta": {
+        "title": "William Wang - Développeur Logiciel | IBM Consulting",
+        "description": "William Wang est développeur logiciel chez IBM Consulting, spécialisé dans l'ingénierie qualité et les plateformes informatiques parallèles. Consultez son portfolio, son expérience et ses projets.",
+        "keywords": "William Wang, Développeur Logiciel, IBM Consulting, Ingénierie Qualité, FPGA, Calcul Parallèle, Portfolio"
+      },
+      "header": {
+        "name": "William Wang",
+        "subtitle": "Développeur, IBM Consulting",
+        "navigation": [
+          { "id": "header", "label": "Accueil" },
+          { "id": "about", "label": "À propos" },
+          { "id": "experience", "label": "Expérience" },
+          { "id": "education", "label": "Formation" },
+          { "id": "portfolio", "label": "Portfolio" },
+          { "id": "resume", "label": "CV" },
+          { "id": "hobbies", "label": "Loisirs" }
+        ],
+        "social": {
+          "linkedin": {
+            "url": "https://www.linkedin.com/in/williamwang256",
+            "arialabel": "Visitez le profil LinkedIn de William Wang"
+          },
+          "github": {
+            "url": "https://www.github.com/williamwang256",
+            "arialabel": "Visitez le profil GitHub de William Wang"
+          }
+        }
+      },
+      "about": {
+        "title": "À propos",
+        "description": "Je suis développeur logiciel spécialisé dans l'ingénierie de la qualité et les plateformes informatiques parallèles. Je mets à profit mon expérience technique et mon esprit collaboratif pour résoudre des problèmes complexes et fournir des solutions sur mesure à mes clients. Je suis passionné par la création de logiciels performants et j'aime résoudre des problèmes algorithmiques intéressants.",
+        "contact": {
+          "phone": {
+            "label": "Téléphone",
+            "value": "+1-437-220-4726",
+            "tel": "+14372204726"
+          },
+          "email": {
+            "label": "Courriel",
+            "value": "williamwang256@gmail.com"
+          }
+        },
+        "profileImage": {
+          "src": "assets/img/me.jpg",
+          "alt": "Photo professionnelle de William Wang, développeur logiciel chez IBM Consulting"
+        }
+      },
+      "experience": {
+        "title": "Expérience",
+        "items": [
+          {
+            "title": "Développeur Logiciel – Ingénierie de Qualité",
+            "company": "IBM Consulting",
+            "location": "Toronto, ON",
+            "period": "Mai 2024 - présent",
+            "description": "Je suis actuellement développeur dans la pratique d'ingénierie de qualité d'IBM Consulting, où je mets à profit mes compétences en développement logiciel et mon expérience éprouvée en matière de collaboration avec les clients pour résoudre efficacement les défis techniques et fournir des solutions sur mesure. Je travaille actuellement en tant qu'ingénieur de qualité pour l'Agence statistique d'assurance générale (ASAG), où nous mettons en place un portail web ainsi qu'une base de données dans le cadre du rôle d'IBM en tant que fournisseur de services statistiques de l'ASAG. Mes contributions comprennent :",
+            "achievements": [
+              "Conception et mise en œuvre de solutions d'assurance qualité à plusieurs niveaux de la pile technologique, notamment pour les équipes chargées du portail Web, de la base de données, de PowerBI et de la génération d'expositions.",
+              "Automatisation du téléchargement des fichiers de données de test vers les bases de données SQL, utilisant des bibliothèques Python pour réduire le temps d'exécution de plusieurs jours à quelques heures.",
+              "Effectuer des analyses et des tests automatisés des pages Web et du code source afin de détecter et de signaler les défauts liés à l'accessibilité, à l'utilisabilité et à la fonctionnalité, en fournissant des descriptions détaillées et en proposant des plans de correction à l'équipe de développement.",
+              "Automatisation de l'exécution des tests de régression à l'aide de l'outil IGNITE OTFA d'IBM, Java, et Selenium.",
+              "Fournir mon expertise technique en matière de vérification de la conformité aux Règles pour l'accessibilité des contenus Web (WCAG)."
+            ]
+          },
+          {
+            "title": "Stagiaire ingénieur logiciel – FPGA High Level Design Applications",
+            "company": "Intel – Programmable Solutions Group",
+            "location": "Toronto, ON", 
+            "period": "Mai 2022 - Septembre 2023",
+            "description": "Entre ma troisième et ma quatrième année de mon diplôme, j'ai fait un stage de 16 mois chez Intel dans le groupe Programmable Solutions. Pendant cette période, en tant qu'ingénieur d'applications logicielles, j'ai apporté mon soutien au compilateur oneAPI DPC++ (Data Parallel C++) d'Intel pour les FPGA (Field-Programmable Gate Array). Cela m'a permis d'apprendre beaucoup sur les architectures des systèmes informatiques et d'acquérir une expérience dans l'écriture et la communication de codes propres et performants. Mon travail allait du soutien à la clientèle à la création de modèles de référence et de tutoriels pour le dépôt d'exemples de code oneAPI d'Intel. J'ai collaboré avec des équipes de compilateurs pour concevoir et optimiser des algorithmes complexes et performants en C++, tout en mettant à profit mes compétences acquises lors du développement de bibliothèques, de tutoriels et de modèles de référence pour travailler en étroite collaboration avec les clients. Parmi mes réalisations dont je suis le plus fier, je citerais ",
+            "achievements": [
+              "Concevoir et publier une bibliothèque de multiplication matricielle à réseau systolique en utilisant C++, qui fournit une solution haute performance pratique et réutilisable pour une opération fréquemment utilisée dans les mathématiques, la science et l'IA.",
+              "Présenter et proposer des techniques de codage qui ont amélioré l'expérience utilisateur et réduit le temps d'exécution jusqu'à 70%",
+              "Animer des réunions avec des collègues de tout autour de l'entreprise pour présenter des fonctionnalités et recueillir des commentaires afin d'orienter le développement du produit."
+            ],
+            "links": [
+              {
+                "text": "compilateur oneAPI DPC++ (Data Parallel C++)",
+                "url": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler.html#gs.5gu3zx"
+              },
+              {
+                "text": "dépôt d'exemples de code oneAPI",
+                "url": "https://github.com/oneapi-src/oneAPI-samples"
+              },
+              {
+                "text": "bibliothèque de multiplication matricielle à réseau systolique",
+                "url": "https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL_FPGA/ReferenceDesigns/matmul"
+              }
+            ]
+          },
+          {
+            "title": "Stagiaire ingénieur logiciel – Automisation des tests",
+            "company": "Ciena",
+            "location": "Ottawa, ON",
+            "period": "Mai 2020 - Août 2020",
+            "description": "Au cours de l'été 2020, j'ai rejoint Ciena en tant que stagiaire avec l'équipe de Packet Control Plane. J'ai conçu, mis en œuvre et maintenu le code d'un cadre d'automatisation des tests élaboré en Python. L'une de mes réalisations a été d'élargir le rapport des résultats de cas de test en obtenant des informations supplémentaires à partir des journaux de test et en les affichant à l'aide de tableaux dans des rapports par courriel automatiques. Un projet unique sur lequel j'ai travaillé consistait à produire de courtes vidéos pour documenter et présenter des fonctionnalités de manière créative et engageante afin de promouvoir le travail de notre équipe avec des autres membres de l'organisation."
+          }
+        ]
+      },
+      "education": {
+        "title": "Formation",
+        "items": [
+          {
+            "title": "Baccalauréat en sciences – Spécialiste en informatique, mineure en mathématiques",
+            "institution": "Université de Toronto",
+            "period": "Septembre 2019 - Avril 2024",
+            "description": "J'ai obtenu mon diplôme de premier cycle en informatique et mathématiques en 2024. J'ai suivi des cours sur les structures de données et les algorithmes, le génie logiciel, les réseaux neuronaux et l'apprentissage profond, l'intelligence artificielle, l'apprentissage automatique, les systèmes d'exploitation, le calcul parallèle, les bases de données et le développement web."
+          },
+          {
+            "title": "Diplôme du Baccalauréat International & Diplôme d'études secondaires de l'Ontario",
+            "institution": "École secondaire Colonel By",
+            "period": "Septembre 2015 - Juin 2019",
+            "description": "J'ai terminé ma formation secondaire avec un Diplôme du Baccalauréat International. J'ai été reconnu comme un Ontario Scholar en juin 2019 et j'ai obtenu la certification DELF B1 en langue française en janvier 2019."
+          }
+        ]
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "items": [
+          {
+            "title": "Classification des chants d'oiseaux basée sur des images",
+            "note": "Dépôt sur GitHub",
+            "links": [
+              {
+                "text": "GitHub",
+                "url": "https://github.com/williamwang256/csc413-project.git"
+              }
+            ],
+            "description": "Dans le cadre du cours « CSC413 Neural Networks and Deep Learning » à l'Université de Toronto, j'ai collaboré avec une équipe d'autres étudiants pour étudier la tâche de classification des espèces d'oiseaux à l'aide de signaux audio transformés en représentations visuelles. En convertissant les enregistrements de chants d'oiseaux en images de spectrogrammes, nous avons permis l'utilisation de modèles de vision par ordinateur - en particulier ResNet50 et Vision Transformer (ViT) - pour effectuer une classification basée sur les images. L'ensemble de données « British Birdsong », qui comprend des enregistrements de 88 espèces d'oiseaux indigènes britanniques, a servi de base à nos expériences.",
+            "image": {
+              "src": "assets/photos/attn_map.png",
+              "alt": "Map d'attention du modèle Vision Transformer mettant en évidence les régions importantes d'une image de spectrogramme pour la classification des chants d'oiseaux",
+              "class": "project_image"
+            }
+          },
+          {
+            "title": "Bibliothèque de multiplication matricielle à réseau systolique",
+            "note": "Dépôt sur GitHub",
+            "links": [
+              {
+                "text": "GitHub",
+                "url": "https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL_FPGA/ReferenceDesigns/matmul"
+              }
+            ],
+            "description": "Pendant mon stage chez Intel, j'ai conçu, optimisé et construit un exemple de code de multiplication matricielle qui sert à la fois de bibliothèque réutilisable et d'implémentation de référence pour les calculations d'algèbre linéaire, une opération fréquemment utilisée dans les mathématiques, la science et l'IA. Tout au long du développement, j'ai collaboré avec des équipes de compilateurs pour intégrer des fonctionnalités avancées de compilateurs et maximiser les performances. J'ai eu l'occasion de présenter ma travail lors d'un symposium interne, en présentant à la fois la conception et nos outils à un public technique. Ce projet a renforcé ma capacité à écrire et documenter un code efficace et lisible, à gérer une initiative technique autodirigée et à solliciter des commentaires pour affiner mon approche. La conception finale est maintenant publiée dans le dépôt open-source oneAPI-samples d'Intel.",
+            "image": {
+              "src": "assets/photos/overview.png",
+              "alt": "Aperçu de l'architecture de la bibliothèque de multiplication matricielle à réseau systolique",
+              "class": "project_image"
+            }
+          },
+          {
+            "title": "Outil de recherche juridique alimenté par l'IA",
+            "note": "Le code de ce projet n'est pas disponible publiquement mais peut être discuté plus en détail sur demande.",
+            "links": [],
+            "description": "Au cours de l'hiver 2022, j'ai collaboré avec une équipe de Lexata, Inc. pour développer un outil de recherche innovant qui simplifie la découverte des règles juridiques pour les équipes juridiques. En tirant parti des capacités de recherche sémantique GPT-3 d'OpenAI, notre solution permet aux utilisateurs de récupérer des sections pertinentes de documents juridiques avec précision, éliminant ainsi le besoin de parcourir manuellement des textes volumineux. Mes contributions ont inclus la conception d'une architecture de base de données flexible et d'un système backend qui ont amélioré à la fois l'efficacité du développement et la scalabilité. J'ai également acquis une expérience pratique dans l'ensemble de la pile logicielle, y compris le développement d'API backend et l'intégration CI/CD. Ce projet a approfondi ma compréhension de l'ingénierie full-stack et a renforcé la valeur d'une conception systématique réfléchie pour accélérer la productivité de l'équipe."
+          },
+          {
+            "title": "Simple Map Diagrams - Bibliothèque Front-End",
+            "note": "Dépôt sur GitHub et page de démonstration",
+            "links": [
+              {
+                "text": "GitHub",
+                "url": "https://github.com/williamwang256/simple-map-diagrams-SMD"
+              },
+              {
+                "text": "page de démonstration",
+                "url": "https://williamwang256.github.io/simple-map-diagrams-SMD/"
+              }
+            ],
+            "description": "Simple Map Diagrams est une bibliothèque JavaScript front-end que j'ai développée en tant que projet individuel pour le cours « CSC309 Programming on the Web » à l'Université de Toronto. Conçue pour simplifier la création de mini-cartes interactives pour les applications web, la bibliothèque permet aux développeurs de créer des composants cartographiques personnalisables et spécifiques à un objectif avec facilité. Ce projet a réuni plusieurs de mes intérêts personnels, notamment le développement de logiciels, la géographie et la cartographie en un outil cohérent et pratique pour le développement web."
+          }
+        ]
+      },
+      "resume": {
+        "title": "CV",
+        "subtitle": "CV",
+      },
+      "hobbies": {
+        "title": "Loisirs",
+        "sections": [
+          {
+            "title": "Photographie",
+            "description": "J'aime la photographie ! J'ai commencé à prendre des photos quand j'étais enfant, principalement lors de voyages, en essayant simplement de capturer ce qui me semblait significatif. Avec le temps, c'est devenu l'une de mes façons préférées d'explorer et de documenter mes souvenirs. Voici quelques-unes de mes photos préférées.",
+            "images": [
+              {
+                "src": "assets/photos/milkyway.jpg",
+                "alt": "Voie lactée au Torrance Barrens Dark-Sky Preserve",
+                "caption": "Voie lactée au Torrance Barrens Dark-Sky Preserve"
+              },
+              {
+                "src": "assets/photos/aurora.jpg", 
+                "alt": "Aurore boréale à Ottawa",
+                "caption": "Aurore boréale à Ottawa"
+              },
+              {
+                "src": "assets/photos/highpark.jpg",
+                "alt": "High Park",
+                "caption": "High Park"
+              },
+              {
+                "src": "assets/photos/harbourfront.jpg",
+                "alt": "Toronto Harbourfront", 
+                "caption": "Toronto Harbourfront"
+              },
+              {
+                "src": "assets/photos/toronto.jpg",
+                "alt": "Marché Kensington",
+                "caption": "Marché Kensington"
+              },
+              {
+                "src": "assets/photos/uppercanadavillage.jpg",
+                "alt": "Upper Canada Village",
+                "caption": "Upper Canada Village"
+              },
+              {
+                "src": "assets/photos/ns.jpg",
+                "alt": "Peggy's Cove, Nouvelle-Écosse", 
+                "caption": "Peggy's Cove, Nouvelle-Écosse"
+              },
+              {
+                "src": "assets/photos/tulips.jpg",
+                "alt": "Festival des tulipes à Ottawa",
+                "caption": "Festival des tulipes à Ottawa"
+              },
+              {
+                "src": "assets/photos/lionshead.jpg",
+                "alt": "Phare de Lion's Head, Péninsule de Bruce, Ontario",
+                "caption": "Phare de Lion's Head, Péninsule de Bruce, Ontario"
+              },
+              {
+                "src": "assets/photos/china.jpg",
+                "alt": "Xi'an, Chine",
+                "caption": "Xi'an, Chine"
+              },
+              {
+                "src": "assets/photos/uoft.jpg",
+                "alt": "University College à l'Université de Toronto",
+                "caption": "University College à l'Université de Toronto"
+              }
+            ]
+          },
+          {
+            "title": "Dessin & Peinture",
+            "description": "J'aime la peinture, parfois sur toile, parfois de manière numérique.",
+            "images": [
+              {
+                "src": "assets/drawings/train.jpg",
+                "alt": "Train de marchandises dans les montagnes Rocheuses (peinture à l'huile)",
+                "caption": "Train de marchandises dans les montagnes Rocheuses (peinture à l'huile)"
+              },
+              {
+                "src": "assets/drawings/tree.jpg",
+                "alt": "Forêt (peinture à l'huile)",
+                "caption": "Forêt (peinture à l'huile)"
+              },
+              {
+                "src": "assets/drawings/via.png",
+                "alt": "Le Canadien (peinture numérique)",
+                "caption": "Le Canadien (peinture numérique)"
+              },
+              {
+                "src": "assets/drawings/leaf.png",
+                "alt": "Feuilles d'automne (peinture numérique)",
+                "caption": "Feuilles d'automne (peinture numérique)"
+              },
+              {
+                "src": "assets/drawings/ttc.png",
+                "alt": "TTC streetcar (croquis numérique)",
+                "caption": "TTC streetcar (croquis numérique)"
+              },
+              {
+                "src": "assets/drawings/car.png",
+                "alt": "Voiture vintage (croquis numérique)",
+                "caption": "Voiture vintage (croquis numérique)"
+              }
+            ]
+          },
+          {
+            "title": "Hiking & Plein air",
+            "description": "J'aime les activités de plein air ; faire du hiking en été et du ski en hiver. J'ai grandi en explorant la nature autour d'Ottawa, et c'est toujours l'une de mes façons préférées de passer du temps avec ma famille et mes amis.",
+            "images": [
+              {
+                "src": "assets/photos/hikingwsh.jpg",
+                "alt": "Du hiking à Mt. Washington, New Hampshire",
+                "caption": "Du hiking à Mt. Washington, New Hampshire"
+              },
+              {
+                "src": "assets/photos/biking.jpg",
+                "alt": "Du vélo sur le sentier de la rivière des Outaouais de la CCN",
+                "caption": "Du vélo sur le sentier de la rivière des Outaouais de la CCN"
+              },
+              {
+                "src": "assets/photos/hiking.jpg", 
+                "alt": "Du hiking au parc provincial Bon Echo d'Ontario",
+                "caption": "Du hiking au parc provincial Bon Echo d'Ontario"
+              },
+              {
+                "src": "assets/photos/canoeing.jpg",
+                "alt": "Du canoë au parc provincial Bon Echo d'Ontario",
+                "caption": "Du canoë au parc provincial Bon Echo d'Ontario"
+              },
+              {
+                "src": "assets/photos/ccski.jpg",
+                "alt": "Ski de fond, ceinture de verdure de la CCN, Ottawa",
+                "caption": "Ski de fond, ceinture de verdure de la CCN, Ottawa"
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "credit": "Conçu par",
+        "creditUrl": "https://bootstrapmade.com/",
+        "creditText": "BootstrapMade"
+      },
+      "accessibility": {
+        "skipToMain": "Aller au contenu principal",
+        "toggleNavigation": "Basculer le menu de navigation",
+        "toggleContrast": "Basculer le mode haut contraste",
+        "toggleContrastShortcut": "Ctrl+Shift+C",
+        "contrastEnabled": "Mode haut contraste activé",
+        "contrastDisabled": "Mode haut contraste désactivé"
+      }
+    }
+  }
+};

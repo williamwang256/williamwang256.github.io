@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>William Wang - Software Developer | IBM Consulting</title>
-  <meta content="William Wang is a Software Developer at IBM Consulting specializing in quality engineering and parallel computing platforms. View his portfolio, experience, and projects." name="description">
-  <meta content="William Wang, Software Developer, IBM Consulting, Quality Engineering, FPGA, Parallel Computing, Portfolio" name="keywords">
+  <meta id="meta-description" content="William Wang is a Software Developer at IBM Consulting specializing in quality engineering aznd parallel computing platforms. View his portfolio, experience, and projects.">
+  <meta id="meta-keywords" content="William Wang, Software Developer, IBM Consulting, Quality Engineering, FPGA, Parallel Computing, Portfolio">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -16,15 +16,15 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Quicksand:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Personal
@@ -40,8 +40,8 @@
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="container">
-      <h1><a href="index.html">William Wang</a></h1>
-      <h2>Developer, IBM Consulting</h2>
+      <h1><a id="header-name" href="index.html">William Wang</a></h1>
+      <h2 id="header-subtitle">Developer, IBM Consulting</h2>
       <nav id="navbar" class="navbar" role="navigation" aria-label="Main navigation">
         <ul role="menubar">
           <li role="none"><a class="nav-link active" href="#header" role="menuitem">Home</a></li>
@@ -62,312 +62,136 @@
         </button>
       </div>
       <div class="social-links">
-        <a href="https://www.linkedin.com/in/williamwang256" class="linkedin" aria-label="Visit William Wang's LinkedIn profile" target="_blank" rel="noopener"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
-        <a href="https://www.github.com/williamwang256" class="github" aria-label="Visit William Wang's GitHub profile" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i></a>
+        <a id="linkedin-link" href="https://www.linkedin.com/in/williamwang256" class="linkedin" aria-label="Visit William Wang's LinkedIn profile" target="_blank" rel="noopener"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+        <a id="github-link" href="https://www.github.com/williamwang256" class="github" aria-label="Visit William Wang's GitHub profile" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i></a>
       </div>
     </div>
   </header><!-- End Header -->
 
   <main id="main-content">
+
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-    <div class="about-me container">
-      <div class="section-title">
-        <h2>About</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img id="pfp" src="assets/img/me.jpg" class="img-fluid" alt="Professional headshot of William Wang, Software Developer at IBM Consulting">
+      <div class="about-me container">
+        <div class="section-title">
+          <h2 id="about-title">About</h2>
         </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <p class="fst-italic">
-            I'm a Software Developer specializing in quality engineering and parallel computing platforms, bringing technical experience and a collaborative mindset to solve complex challenges and deliver client-tailored solutions. I'm passionate about building performant software and enjoy solving interesting algorithmic problems.
-          </p>
-          <br>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right" aria-hidden="true"></i> <strong>Phone</strong> <span><a href="tel:+14372204726" aria-label="Call William Wang at +1-437-220-4726">+1-437-220-4726</a></span></li>
-                <li><i class="bi bi-chevron-right" aria-hidden="true"></i> <strong>Email</strong> <span><a href="mailto:williamwang256@gmail.com" aria-label="Send email to William Wang">williamwang256@gmail.com</a></span></li>
-              </ul>
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img id="pfp" src="assets/img/me.jpg" class="img-fluid" alt="Professional headshot of William Wang, Software Developer at IBM Consulting">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <p class="fst-italic" id="about-description">
+              <!-- Content will be loaded dynamically -->
+              Loading...
+            </p>
+            <br>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right" aria-hidden="true"></i> <strong id="phone-label">Phone</strong> <span><a href="tel:+14372204726" id="phone-link" aria-label="Call William Wang">+1-437-220-4726</a></span></li>
+                  <li><i class="bi bi-chevron-right" aria-hidden="true"></i> <strong id="email-label">Email</strong> <span><a href="mailto:williamwang256@gmail.com" id="email-link" aria-label="Send email to William Wang">williamwang256@gmail.com</a></span></li>
+                </ul>
+              </div>
             </div>
+            <br>
+            <br>
           </div>
-          <br>
-          <br>
         </div>
       </div>
-    </div>
-  </section><!-- End About Section -->
+    </section><!-- End About Section -->
 
-  <!-- ======= Experience Section ======= -->
-  <section id="experience" class="resume">
-    <div class="container">
-      <div class="section-title">
-        <h2>Experience</h2>
-      </div>
-      <div class="row">
-          <div class="resume-item pb-0">
-            <br>
-            <h4>Software Developer – Quality Engineering</h4>
-            <h5>IBM Consulting | Toronto, ON</h5>
-            <p><em>May 2024 - present</em></p>
-            <p>
-              I am currently a Developer in IBM Consulting's Quality Engineering practice, where I leverage my proficiency in software development and my proven track record of collaborating with customers to effectively resolve technical challenges and provide tailored solutions. My current assignment is as a Quality Engineer with the General Insurance Statistical Agency (GISA), where we are implementing a frontend web portal as well as the backend database as a part of IBM's role as GISA's Statistical Service Provider. My contributions include:
-              <ul>
-                <li>Designing and implementing quality assurance solutions across multiple layers of the technology stack, including the frontend (web portal), backend (database), PowerBI, and Exhibit generation teams.</li>
-                <li>Automating the upload of test data files to SQL databases, leveraging Python libraries to reduce runtime from days to hours.</li>
-                <li>Conducting automated scans and testing of web page and source code to detect and report defects related to accessibility, usability, and functionality, providing detailed descriptions and proposing remediation plans to the development team.</li>
-                <li>Automating the execution of regression tests using IBM's IGNITE OTFA tool alongside Java and Selenium.</li>
-                <li>Providing technical expertise in Web Content Accessibility Guidelines (WCAG) compliance verification.</li>
-              </ul>
-            </p>
-          </div>
-          <div class="resume-item pb-0">
-            <br>
-            <h4> Software Engineer Intern – FPGA High Level Design Applications</h4>
-            <h5>Intel – Programmable Solutions Group | Toronto, ON</h5>
-            <p><em>May 2022 - September 2023</em></p>
-            <p>
-              Between my third and fourth years of my undergraduate degree, I completed a 16-month internship at Intel with the Programmable Solutions Group. 
-              During my time there as a software applications engineer, I supported Intel's <a href="https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler.html#gs.5gu3zx">oneAPI DPC++ (Data Parallel C++) compiler</a> for FPGAs (Field-Programmable Gate Arrays), through which I learned a lot about computer system architectures and gained invaluable experience writing and communicating clean and performant code. My work ranged from supporting customers to creating reference designs and tutorials for Intel's <a href="https://github.com/oneapi-src/oneAPI-samples">oneAPI code samples repository</a>. I cooperated with compiler teams in designing and optimizing complex, high-performance algorithms in C++, while also leveraging my skills gained from developing libraries, tutorials, and reference designs to work in close liaison with clients. Some of my proudest accomplishments include:
-            </p>
-            <ul>
-              <li>Designing and publishing a <a href="https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL_FPGA/ReferenceDesigns/matmul">systolic-array matrix multiplication library</a> using C++, which delivers a practical and reusable high-performance solution to a frequently employed operation in math, science, and AI.</li>
-              <li>Presenting and proposing coding techniques that streamlined user experience and decreased run time by up to 70%</li>
-              <li>Leading meetings with colleagues across the company to showcase features and gather feedback to drive product focus.</li>
-            </ul>
-            </p>
-          </div>
-          <div class="resume-item pb-0">
-            <br>
-            <h4>Software Engineer Intern – Test Automation</h4>
-            <h5>Ciena Corporation | Ottawa, ON</h5>
-            <p><em>May 2020 - August 2020</em></p>
-            <p>
-              During the summer of 2020, I joined Ciena Corporation as an intern with the Packet Control Plane team. I designed, implemented, and maintained code for an elaborate test automation framework in Python. One of my accomplishments was expanding the reporting of test case failures by getting additional information from test logs and displaying it using clear and easy-to-read tables in automatic email reports. A unique project I worked on involved producing short tutorial videos to document and showcase features in a creative and engaging way to promote our team's work to others in the organization.
-            </p>
-          </div>
-      </div>
-
-    </div>
-  </section><!-- End Experience Section -->
-
-  <!-- ======= Education Section ======= -->
-  <section id="education" class="resume">
-    <div class="container">
-      <div class="section-title">
-        <h2>Education</h2>
-      </div>
-      <div class="row">
-          <div class="resume-item pb-0">
-            <br>
-            <h4>Honours Bachelor of Science – Computer Science Specialist, Mathematics Minor</h4>
-            <h5>University of Toronto</h5>
-            <p><em>September 2019 - April 2024</em></p>
-            <p>I earned my undergraduate degree in Computer Science and Mathematics in 2024, graduating with high distinction. I completed coursework in data structures & algorithms, software engineering, neural networks and deep learning, artificial intelligence, machine learning, operating systems, parallel computing, databases, and web development.</p>
-          </div>
-          <div class="resume-item pb-0">
-            <br>
-            <h4>International Baccalaureate Diploma & Ontario Secondary School Diploma</h4>
-            <h5>Colonel By Secondary School</h5>
-            <p><em>September 2015 - June 2019</em></p>
-            <p>I completed my high school education with an International Baccalaureate Diploma. I was recognized as an Ontario Scholar in June 2019, and earned the DELF B1 French language certification in January 2019.</p>
-            <p></p>
-          </div>
-      </div>
-    </div>
-  </section><!-- End Education Section -->
-
-  <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="resume">
-    <div class="container">
-      <div class="section-title">
-        <h2>Portfolio</h2>
-      </div>
-      <div class="row">
-        <div class="resume-item pb-0">
-          <br>
-          <h4>Image-Based Bird Song Classification</h4>
-          <h5>Repository on <a href="https://github.com/williamwang256/csc413-project.git">GitHub</a>.</h5>
-          <p>
-            As part of the CSC413 Neural Networks and Deep Learning course at the University of Toronto, I collaborated with a team of other students to investigate the task of bird species classification using audio signals transformed into visual representations. By converting bird song recordings into spectrogram images, we enabled the use of computer vision models—specifically ResNet50 and Vision Transformer (ViT)—to perform image-based classification. The British Birdsong Dataset, comprising recordings from 88 native British bird species, served as the foundation for our experiments.
-          </p>
-          <img src="assets/photos/attn_map.png" class="project_image" alt="Attention map from Vision Transformer model highlighting important regions of a spectrogram image for bird song classification">
+    <!-- ======= Experience Section ======= -->
+    <section id="experience" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="experience-title">Experience</h2>
         </div>
-        <div class="resume-item pb-0">
-          <br>
-          <h4>Systolic-Array Matrix Multiplication Library</h4>
-          <h5>Repository on <a href="https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL_FPGA/ReferenceDesigns/matmul">GitHub</a>.</h5>
-          <p>
-            During my internship at Intel, I designed, optimized, and built a matrix multiplication code sample that serves as both a reusable library and a reference implementation for linear algebra workloads, a frequently employed operation in math, science, and AI. Throughout development, I collaborated with compiler engineering teams to integrate advanced compiler features and maximize performance. I had the opportunity to present this work at an internal symposium, showcasing both the design and our broader tooling to a technical audience. This project strengthened my ability to write and document efficient, readable code, manage a self-directed technical initiative, and seek out feedback to refine my approach. The final design is now published in Intel's open-source oneAPI-samples repository.
-          </p>
-          <img src="assets/photos/overview.png" class="project_image" alt="Overview of the Systolic-Array Matrix Multiplication Library design and architecture">
-        </div>
-        <div class="resume-item pb-0">
-          <br>
-          <h4>AI-Powered Legal Search Tool</h4>
-          <h5>The code for this project is not publicly available but can be discussed further upon request.</h5>
-          <p>
-            During the winter of 2022, I collaborated with a team at Lexata, Inc. to develop an innovative search tool that streamlines legal rule discovery for legal teams. Leveraging OpenAI's GPT-3 semantic search capabilities, our solution enables users to retrieve relevant sections of legal documents with precision, eliminating the need to manually sift through extensive texts. My contributions included designing a flexible database architecture and backend system that enhanced both development efficiency and scalability. I also gained hands-on experience across the software stack, including backend API development and CI/CD integration. This project deepened my understanding of full-stack engineering and reinforced the value of thoughtful system design in accelerating team productivity.
-          </p>
-        </div>
-        <div class="resume-item pb-0">
-          <br>
-          <h4>Simple Map Diagrams - Front-End Library</h4>
-          <h5>Repository on <a href="https://github.com/williamwang256/simple-map-diagrams-SMD">GitHub</a> and <a href="https://williamwang256.github.io/simple-map-diagrams-SMD/">live demo page</a>.</h5>
-          <p>
-            Simple Map Diagrams is a front-end JavaScript library I developed as an individual project for the CSC309 “Programming on the Web” course at the University of Toronto. Designed to simplify the creation of interactive mini-maps for web applications, the library enables developers to build highly customizable and purpose-specific map components with ease. This project brought together several of my personal interests, including software development, geography, and mapping into a cohesive and practical tool for web development.
-          </p>
+        <div class="row" id="experience-items">
+          <!-- Content will be loaded dynamically -->
+          Loading...
         </div>
       </div>
+    </section><!-- End Experience Section -->
+
+    <!-- ======= Education Section ======= -->
+    <section id="education" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="education-title">Education</h2>
+        </div>
+        <div class="row" id="education-items">
+          <!-- Content will be loaded dynamically -->
+          Loading...
+        </div>
+      </div>
+    </section><!-- End Education Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="portfolio-title">Portfolio</h2>
+        </div>
+        <div class="row" id="portfolio-items">
+          <!-- Content will be loaded dynamically -->
+          Loading...
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="resume-title">Resume</h2>
+        </div>
+        <div class="row" id="resume-content">
+          <embed src="assets/documents/williamwang_resume.pdf" width="400px" height="1400px" />
+        </div>
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Hobbies Section ======= -->
+    <section id="hobbies" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="hobbies-title">Hobbies</h2>
+        </div>
+        <div class="row" id="hobbies-content">
+          <!-- Content will be loaded dynamically -->
+          Loading...
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
     </div>
-  </section><!-- End Portfolio Section -->
-
-  <!-- ======= Resume Section ======= -->
-  <section id="resume" class="resume">
-    <div class="container">
-      <div class="section-title">
-        <h2>Resume</h2>
-      </div>
-      <div class="row">
-        <embed src="assets/documents/williamwang_resume.pdf" width="400px" height="1400px" />
-      </div>
-    </div>
-  </section><!-- End Documents Section -->
-
-  <!-- ======= Hobbies Section ======= -->
-  <section id="hobbies" class="resume">
-    <div class="container">
-      <div class="section-title">
-        <h2>Hobbies</h2>
-      </div>
-      <div class="row">
-        <h3 class="resume-title">Photography</h3>
-        <p>I enjoy photography! Here are some of my favourite shots.</p>
-
-        <img src="assets/photos/milkyway.jpg" class="photo" alt="Milky Way at the Torrance Barrens Dark-Sky Preserve">
-        <p class="caption">Milky Way at the Torrance Barrens Dark-Sky Preserve</p>
-        <hr>
-
-        <img src="assets/photos/aurora.jpg" class="photo" alt="Aurora Borealis in Ottawa">
-        <p class="caption">Aurora Borealis in Ottawa</p>
-        <hr>
-
-        <img src="assets/photos/highpark.jpg" class="photo" alt="High Park">
-        <p class="caption">High Park</p>
-        <hr>
-
-        <img src="assets/photos/harbourfront.jpg" class="photo" alt="Toronto Harbourfront">
-        <p class="caption">Toronto Harbourfront</p>
-        <hr>
-        
-        <img src="assets/photos/toronto.jpg" class="photo" alt="Kensington Market">
-        <p class="caption">Kensington Market</p>
-        <hr>
-
-        <img src="assets/photos/uppercanadavillage.jpg" class="photo" alt="Upper Canada Village">
-        <p class="caption">Upper Canada Village</p>
-        <hr>
-
-        <img src="assets/photos/ns.jpg" class="photo" alt="Peggy's Cove, Nova Scotia">
-        <p class="caption">Peggy's Cove, Nova Scotia</p>
-        <hr>
-
-        <img src="assets/photos/tulips.jpg" class="photo" alt="Tulip Festival in Ottawa">
-        <p class="caption">Tulip Festival in Ottawa</p>
-        <hr>
-
-        <img src="assets/photos/lionshead.jpg" class="photo" alt="Lion's Head lighthouse, Bruce Peninsula, Ontario">
-        <p class="caption">Lion's Head lighthouse, Bruce Peninsula, Ontario</p>
-        <hr>
-
-        <img src="assets/photos/china.jpg" class="photo" alt="Xi'an, China">
-        <p class="caption">Xi'an, China</p>
-        <hr>
-
-        <img src="assets/photos/uoft.jpg" class="photo" alt="University College at U of T">
-        <p class="caption">University College at U of T</p>
-        <hr>
-
-        <img src="assets/photos/niagara.jpg" class="photo" alt="Niagara Falls">
-        <p class="caption">Niagara Falls</p>
-        <hr>
-
-        <h3 class="resume-title">Drawing & Painting</h3>
-        <p>I enjoy oil painting as well as digital art on my iPad.</p>
-        
-        <img src="assets/drawings/train.jpg" class="photo" alt="Freight train in the Rocky Mountains (oil painting)">
-        <p class="caption">Freight train in the Rocky Mountains (oil painting)</p>
-        <hr>
-
-        <img src="assets/drawings/tree.jpg" class="photo" alt="Forest (oil painting)">
-        <p class="caption">Forest (oil painting)</p>
-        <hr>
-
-        <img src="assets/drawings/via.png" class="photo" alt="The Canadian (digital painting)">
-        <p class="caption">The Canadian (digital painting)</p>
-        <hr>
-
-        <img src="assets/drawings/leaf.png" class="photo" alt="Fall leaves (digital painting)">
-        <p class="caption">Fall leaves (digital painting)</p>
-        <hr>
-
-        <img src="assets/drawings/ttc.png" class="photo" alt="TTC streetcar (digital sketch)">
-        <p class="caption">TTC streetcar (digital sketch)</p>
-        <hr>
-
-        <img src="assets/drawings/car.png" class="photo" alt="Vintage car (digital sketch)">
-        <p class="caption">Vintage car (digital sketch)</p>
-        <hr>
-
-        <h3 class="resume-title">Hiking & Outdoors</h3>
-        <p>In the summer, I like to go hiking and biking, and in the winter I go cross-country skiing in and around my hometown of Ottawa, Ontario.</p>
-
-        <img src="assets/photos/mtwsh.jpg" class="photo" alt="">
-        <p class="caption"></p>
-        <img src="assets/photos/hikingwsh.jpg" class="photo" alt="Hiking up Mt. Washington, New Hampshire">
-        <p class="caption">Hiking up Mt. Washington, New Hampshire</p>
-        <hr>
-
-        <img src="assets/photos/biking.jpg" class="photo" alt="Biking along the NCC Ottawa River Pathway">
-        <p class="caption">Biking along the NCC Ottawa River Pathway</p>
-        <hr>
-
-        <img src="assets/photos/hiking.jpg" class="photo" alt="Hiking in Bon Echo Provincial Park, Ontario">
-        <p class="caption">Hiking in Bon Echo Provincial Park, Ontario</p>
-        <hr>
-
-        <img src="assets/photos/canoeing.jpg" class="photo" alt="Canoeing in Bon Echo Provincial Park, Ontario">
-        <p class="caption">Canoeing in Bon Echo Provincial Park, Ontario</p>
-        <hr>
-
-        <img src="assets/photos/ccski.jpg" class="photo" alt="Cross-country skiing, NCC Greenbelt, Ottawa">
-        <p class="caption">Cross-country skiing, NCC Greenbelt, Ottawa</p>
-      </div>
-    </div>
-  </section><!-- End Portfolio Section -->
-
-  <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-  </div>
-  
+    
   </main><!-- End Main Content -->
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
 
+  <!-- Content Data -->
+  <script src="js/content.js"></script>
+  
+  <!-- Content Manager -->
+  <script src="js/content-manager.js"></script>
+  
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 
